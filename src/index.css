@@ -1,0 +1,69 @@
+/* Set Colots theme for website */
+:root {
+    --dark: #353535;
+    --darkhigh: #888888;
+    --lighthigh: #f2f3f5;
+    --back: #f9fafb;
+    --bord: #e5e5e5;
+}
+/* Default Settings */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* box default styles */
+.box-container {
+  background: white;
+  border: 1px solid var(--bord);
+  box-sizing: border-box;
+  color: var(--dark);
+  padding: 15px;
+}
+.box-miniheading {
+  margin: 0;
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: var(--darkhigh);
+  text-transform: uppercase;
+}
+.box-timeheading {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--darkhigh);
+  font-style: italic;
+}
+.box-textheading1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-style: normal;
+}
+.box-text1 {
+  font-size: 0.9rem;
+  color: var(--darkhigh);
+  font-style: normal;
+}
+.box-text2 {
+  font-size: 1rem;
+  color: var(--darkhigh);
+  font-style: normal;
+}
+.box-bigheading1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--dark);
+}
+
+.uk-button-default {
+  color: var(--darkhigh) !important;
+}
+.uk-button-default:hover {
+  color: var(--dark) !important;
+}
+.uk-navbar-item, .uk-navbar-nav>li>a {
+  height: 60px !important;
+}

@@ -1,0 +1,26 @@
+{
+  "results": {
+    "username": "Jason Hwang",
+    "name": "jasonhwang@trustedsource.com.sg",
+    "nickname": "jasonhwang",
+    "picture": "https://static.productionready.io/images/smiley-cyrus.jpg",
+    "phone": "8765 4321",
+    "directors": [
+      {
+        "username": "Jay Walter Harrington",
+        "name": "jaywalterharrington@trustedsource.com.sg",
+        "picture": "https://randomuser.me/api/portraits/men/32.jpg"
+      },
+      {
+        "username": "John Doe Smith",
+        "name": "johndoesmith@trustedsource.com.sg",
+        "picture": "https://randomuser.me/api/portraits/men/84.jpg"
+      },
+      {
+        "username": "Thomas Louis Jackson",
+        "name": "thomaslousjackson@trustedsource.com.sg",
+        "picture": "https://randomuser.me/api/portraits/men/3.jpg"
+      }
+    ]
+  }
+}

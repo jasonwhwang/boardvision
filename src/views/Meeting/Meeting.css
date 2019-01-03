@@ -1,0 +1,34 @@
+.meeting-section {
+    margin: 0.5rem 2rem 2rem 2rem;
+}
+.meeting-name {
+    display: inline-block;
+    width: 35%;
+}
+.meeting-committee {
+    display: inline-block;
+    width: 25%;
+    text-align: right;
+}
+.meeting-location {
+    display: inline-block;
+    width: 15%;
+    text-align: right;
+}
+.meeting-duration {
+    display: inline-block;
+    width: 15%;
+    text-align: right;
+}
+.meeting-tags {
+    display: inline-block;
+    width: 10%;
+    text-align: right;
+}
+.meeting-description {
+    margin: 2rem 3rem 1rem 3rem;
+}
+
+.meetingtable {
+    margin: 1rem 2rem 1rem 2rem;
+}

@@ -1,0 +1,35 @@
+.app {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+.main {
+  flex: 1;
+}
+
+.app-window {
+  padding: 15px;
+  /* height: total height - header height - padding - padding */
+  height: calc(100vh - 65px);
+  overflow: auto;
+  background: var(--back);
+}
+
+/* Scrollbar Styles */
+.app-window::-webkit-scrollbar-track
+{
+  margin: 15px 0 15px 0;
+}
+.app-window::-webkit-scrollbar
+{
+  height: 10px;
+	width: 10px;
+}
+.app-window::-webkit-scrollbar-thumb
+{
+	border-radius: 5px;
+	background-color: var(--darkhigh);
+}

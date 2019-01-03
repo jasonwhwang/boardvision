@@ -1,0 +1,59 @@
+.topsection {
+    display: flex;
+}
+.spacer {
+    flex: 1;
+}
+.view-title {
+    display: inline-block;
+}
+.view-filter {
+    display: inline-block;
+}
+
+.requestsection {
+    margin: 1rem 0 0 0;
+    padding: 1rem 1rem 0.1rem 1rem;
+    border-radius: 10px;
+    background-color:var(--lighthigh);
+}
+
+.request {
+    display: table;
+    border-radius: 10px;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 1rem;
+    transition: all 300ms;
+}
+.request:hover {
+    background-color: rgb(251, 251, 251);
+    transition: all 300ms;
+}
+.requestitem {
+    box-sizing: border-box;
+    padding: 1rem;
+    vertical-align: middle;
+}
+.rname {
+    display: inline-block;
+    width: 15%;
+    font-weight: 500;
+}
+.rcommittee {
+    display: inline-block;
+    width: 15%;
+}
+.rdescription {
+    display: inline-block;
+    width: 50%;
+}
+.rdate {
+    display: inline-block;
+    width: 10%;
+}
+.rtag {
+    display: inline-block;
+    width: 10%;
+    text-align: right;
+}

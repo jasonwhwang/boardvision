@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "id": "28jdh02k3",
+      "tag": "Message",
+      "description": "New User has sent you a message.",
+      "time": "2018-06-05 00:00:00"
+    },
+    {
+      "id": "gjk20d0",
+      "tag": "Deadline",
+      "description": "Deadline for submitting availability in the next few days.",
+      "time": "2018-05-10 10:10:10"
+    },
+    {
+      "id": "29djro2dh",
+      "tag": "Message",
+      "description": "[USERNAME] has sent you a message.",
+      "time": "2018-05-09 23:35:09"
+    },
+   {
+      "id": "x17j29d",
+      "tag": "Update",
+      "description": "Meeting time has been determined for [MEETING NAME].",
+      "time": "2018-05-05 18:45:30"
+    },
+    {
+      "id": "f832ht7",
+      "tag": "Deadline",
+      "description": "Deadline for submitting availability in the next few days.",
+      "time": "2018-05-03 12:35:10"
+    },
+    {
+      "id": "dk210dj",
+      "tag": "Update",
+      "description": "Description: this is an description for notifications",
+      "time": "2018-05-01 10:35:35"
+    }
+  ]
+}

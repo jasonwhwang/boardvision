@@ -1,0 +1,36 @@
+{
+  "results": {
+    "id": "MeetingIDslug",
+    "name": "Voting Resolution",
+    "committee": "Board Committee",
+    "location": "Los Angeles",
+    "duration": "2",
+    "description": "Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Description for meeting.",
+    "deadline": "2018-05-01 00:00:00",
+    "tag": "Pending",
+    "dates": [ "2018-05-02 16:00:00", "2018-05-05 17:00:00", "2018-05-07 17:00:00", "2018-05-09 16:00:00", "2018-05-10 16:00:00"],
+    "directors": [
+      {
+        "username": "Jay Walter Harrington",
+        "name": "jaywalterharrington@trustedsource.com.sg",
+        "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+        "response": [1,1,0,1,0],
+        "remarks": ""
+      },
+      {
+        "username": "John Doe Smith",
+        "name": "johndoesmith@trustedsource.com.sg",
+        "picture": "https://randomuser.me/api/portraits/men/84.jpg",
+        "response": [0,0,0,0,0],
+        "remarks": "Requires additional paperwork"
+      },
+      {
+        "username": "Thomas Louis Jackson",
+        "name": "thomaslousjackson@trustedsource.com.sg",
+        "picture": "https://randomuser.me/api/portraits/men/3.jpg",
+        "response": [0,0,0,0,0],
+        "remarks": "Will be late"
+      }
+    ]
+  }
+}

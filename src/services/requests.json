@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "id": "slug123",
+      "name": "Name of Meeting: Hello World",
+      "committee": "Committee for Meeting: World Committee",
+      "description": "Description for Meeting: We will save the world",
+      "time": "2018-05-01",
+      "tag": "Pending"
+    },
+    {
+      "id": "mx1v52s",
+      "name": "Voting New Resolution",
+      "committee": "One Committee",
+      "description": "Meeting to discuss board of directors tasks",
+      "time": "2018-05-05",
+      "tag": "New"
+    },
+    {
+      "id": "z93jf8i",
+      "name": "Discussing Company Budget",
+      "committee": "Board of Directors Committee",
+      "description": "This meeting is focused on resolving next year's budget for technology investment.",
+      "time": "2018-05-07",
+      "tag": "Pending"
+    },
+    {
+      "id": "j820dj6",
+      "name": "Adding New Directors",
+      "committee": "Committee for Board",
+      "description": "Discussing who to add to our board of directors and advisors",
+      "time": "2018-05-09",
+      "tag": "Finalized"
+    },
+    {
+      "id": "f82g2s0",
+      "name": "Merger & Acquisition Discussion",
+      "committee": "Financial Committee",
+      "description": "Opportunity to acquire new technology firm, will discuss synergies and potential benefits",
+      "time": "2018-05-010",
+      "tag": "New"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+.sidebar-container {
+  box-sizing: border-box;
+  height: 100%;
+}
+/* Main Sidebar Container Style */
+.sidebar {
+  display: block;
+  background: white;
+  height: 100%;
+  width: 225px;
+  transition: 200ms;
+  padding-top: 30px;
+  border-right: 1px solid var(--bord);
+  overflow: auto;
+  box-sizing: border-box;
+}
+/* Scrollbar Styles */
+.sidebar::-webkit-scrollbar-track
+{
+  margin: 15px 0 15px 0;
+}
+.sidebar::-webkit-scrollbar
+{
+  height: 10px;
+	width: 10px;
+}
+.sidebar::-webkit-scrollbar-thumb
+{
+	border-radius: 5px;
+	background-color: var(--darkhigh);
+}
+
+/* Sidebar Main Logo with Description */
+.sidebar-logo {
+  display: inline;
+  padding: 0 0 0 22px;
+}
+.sidebar-img {
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+}
+.sidebar-logotext {
+  display: inline;
+  vertical-align: middle;
+  font-size: 1.25em;
+}
+.sidebar-subtext {
+  color: var(--darkhigh);
+  font-size: 0.6em;
+  text-align: center;
+  margin: 0px 0 30px 0;
+}
+.sidebar-user {
+  margin: 0 0 50px 22px;
+}
+
+.sidebar-username {
+  font-size: 1rem;
+  margin: 0;
+  font-weight: 600;
+  color: var(--dark);
+  text-transform: none !important;
+}
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+/* Sidebar Menu Items */
+.sidebar a {
+  display: block;
+  box-sizing: border-box;
+  width: auto;
+  transition: 200ms;
+}
+.sidebar-item {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  color: var(--darkhigh);
+}
+.sidebar-item:hover{
+  border-top: 1px solid var(--bord);
+  border-bottom: 1px solid var(--bord);
+  text-decoration: none;
+  color: var(--dark);
+}
+.sidebar-icon {
+  font-size: 1em;
+  display: table-cell;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  vertical-align: middle;
+}
+.sidebar-text {
+  font-size: 1em;
+  display: table-cell;
+  vertical-align: middle;
+  text-decoration: none !important;
+}
+
+/* Sidebar Toggle On/Off without Javascript */
+#toggle1 ~ .sidebar {
+  margin-left: 0;
+}
+#toggle1:checked ~ .sidebar {
+  margin-left: -225px;
+}
+#toggle1 {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  #toggle1 ~ .sidebar {
+    margin-left: -255px;
+  }
+  #toggle1:checked ~ .sidebar {
+    margin-left: 0;
+  }
+}
